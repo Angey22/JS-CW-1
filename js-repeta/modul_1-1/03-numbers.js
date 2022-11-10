@@ -7,7 +7,7 @@
 // Простой парсинг значения переменной
 let elementWidth = '50px';
 // const result = Number.parseInt(elementWidth);
-// console.log(result); // => число 50
+// console.log(typeof result, result); // => number 50
 
 // Парсинг значения переменной "elementWidth" с последующим переопределением значения этой переменной с текстового формата '50px' на число '50px'
 // elementWidth = Number.parseInt(elementWidth);
@@ -28,18 +28,18 @@ let elementHeight = '200.74px';
 let salary = 1300.16472;
 // console.log('Перед отсечением "ненужного":', salary);
 // salary = salary.toFixed(2);
-// console.log('После отсечением "ненужного":', salary);
+// console.log('После отсечением "ненужного" (строка):', salary);
 // Важной особенностью использования данного метода является то, что он возвращает - стороку, т.е. берет число, переводит его в строку и уже от строки - отсекает соответствующее количество символов "ненужного".
 
 // Для перевода значения строки в число - используем метод 'Number()'
-salary = Number(salary);
+// salary = Number(salary);
 // console.log('Преобразование в число:', salary);
 
 // Пример записи выше написаных 2-х строк кода, в одну строку - по методу "Матрешки"
 // console.log('Преобразование в число (матрешка):', Number(salary.toFixed(2)));
 
 /*
-* = Приведение (преобразование) к числу с "Namber(value)"
+* - Приведение (преобразование) к числу с "Namber(value)"
 * - Значение NaN (Nat a Number) и метод Number.isNaN(valur)
 */
 let quantiti = '30';
@@ -152,8 +152,8 @@ const power2 = 5;
 // console.log(Math.random() * (50 - 30) + 30);
 
 // Пример задачи диапозона генерации случайных чисел от 10 до 80, с использованием переменных
-// const min = 10;
-// const max = 80;
+const min = 10;
+const max = 80;
 // console.log(Math.random() * (max - min) + min);
 
 // 'Math.round()' - предназначен для округления

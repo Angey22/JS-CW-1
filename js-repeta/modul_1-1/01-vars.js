@@ -24,39 +24,38 @@ let theLiar = false;
 
 // Для вывода в консоли значения переменной, функции или результата операции нужно использовать - "console.log()"
 
-// console.log(5); -> 5
-// console.log(age); -> 10
-// console.log('Абра-Кадабра'); -> Абра-Кадабра
-// console.log(userName); -> Chelsy
-// console.log(isOpen); -> true
+// console.log(5); // => 5
+// console.log(age); // => 10
+// console.log('Абра-Кадабра'); // => Абра-Кадабра
+// console.log(userName); // => Chelsy
+// console.log(isOpen); // => true
 
-// console.log(x); -> undefined
-// console.log(y); -> 17
-// console.log(NoTicets); -> Нет билетов!
-// console.log(theLiar); -> false
+// console.log(x); // => undefined
+// console.log(y); // => 17
+// console.log(NoTicets); // => Нет билетов!
+// console.log(theLiar); // => false
 
 /*
 * - Оператор typeof
 */
-
 // Предназначен для определения типа переменной (number, string, boolean)
 // const typePer1 = typeof 'sdughsiuggeig';
-// console.log(typePer1); -> string
+// console.log(typePer1); // => string
 
 // const typePer2 = typeof 5;
-// console.log(typePer2); -> number
+// console.log(typePer2); // => number
 
 // const typePer3 = typeof true;
-// console.log(typePer3);  -> boolean;
+// console.log(typePer3);  // => boolean;
 
 // const typePer1 = typeof NoTicets;
-// console.log(typePer1); -> string
+// console.log(typePer1); // => string
 
 // const typePer2 = typeof isOpen;
-// console.log(typePer2); -> boolean;
+// console.log(typePer2); // => boolean;
 
 // const typePer3 = typeof totalPrice;
-// console.log(typePer3); -> number
+// console.log(typePer3); // => number
 
 
 
