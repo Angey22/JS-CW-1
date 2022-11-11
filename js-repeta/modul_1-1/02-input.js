@@ -23,3 +23,8 @@
 // quantity2 = Number(quantity2);
 // console.log(quantity2);
 // console.log(typeof quantity2);
+
+// Еще одной особенностью метода 'Number()' является то, что он служебное значение 'null'(означающее - "ничто"), булевое значение 'false' и строку с символом ноля - '0', приводит к числу -> "0"
+// console.log(Number(null)); // => число - "0"
+// console.log(Number(false)); // => число - "0"
+// console.log(Number('0')); // => число - "0"
