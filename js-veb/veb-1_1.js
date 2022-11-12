@@ -117,3 +117,36 @@
 // console.log(undefined == null); // => true
 
 // console.log(undefined === null); // => false
+
+
+// Example 8 - Логические операторы
+// Каким будет результат выражений?
+
+// console.log(true && 3); // => 3
+
+// console.log(false && 3); // => false
+
+// console.log(true && 4 && 'kiwi'); // => kivi
+
+// console.log(true && 0 && 'kiwi'); // => 0
+
+// console.log(true || 3); // => true
+
+// console.log(true || 3 || 4); // => true
+
+// console.log(true || false || 7); // => true
+
+// console.log(null || 2 || undefined); // => 2
+
+// console.log((1 && null && 2) > 0); // => false
+
+// console.log(null || (2 && 3) || 4); // => 3
+
+
+// Example 9 - Значение по умолчанию и оператор нулевого слияния
+// Отрефактори код так, чтобы в переменную value присваивалось значение переменной incomingValue, если оно не равно undefined или null. В противном случае должно присваиваться значение defaultValue. Проверь работу скрипта для слепдующих значений переменной incomingValue: null, undefined, 0, false. Используй оператор ?? (nullish coalescing operator).
+
+// const incomingValue = 5;
+// const defaultValue = 10;
+// const value = incomingValue || defaultValue;
+// console.log(value);
