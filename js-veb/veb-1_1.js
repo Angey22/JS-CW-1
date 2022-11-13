@@ -13,9 +13,9 @@
 // Замени выражение переопределения комбинированным оператором +=.
 
 // let students = 100;
-// students = students + 50; // => 150
-// students += 50; // => 150
-// students =+ 50; // => 50
+// students = students + 50; // => 150 (добавляет 50)
+// students += 50; // => 150 (добавляет 50)
+// students =+ 50; // => 50 (отнимает 50)
 // console.log(students);
 
 
@@ -55,7 +55,7 @@
 
 // Вес и высота хранятся в переменных weight и height, но не как числа, а в виде строк (специально для задачи). Нецелые числа могут быть заданы в виде 24.7 или 24,7, то есть в качестве разделителя дробной части может быть запятая.
 
-// Индекс массиы тела необходимо округлить до одной цифры после запятой;
+// Индекс массы тела необходимо округлить до одной цифры после запятой;
 
 // let weight = '88,3';
 // let height = '1.75';
@@ -150,3 +150,21 @@
 // const defaultValue = 10;
 // const value = incomingValue || defaultValue;
 // console.log(value);
+
+// Example 10 - Опертор % и методы строк
+// Напиши скрипт который переведёт значение totalMinutes (количество минут) в строку в формате часов и минут HH:MM.
+
+// 70 покажет 01:10
+// 450 покажет 07:30
+// 1441 покажет 24:01
+
+const totalMinutes = 70;
+
+const hours = Math.floor(totalMinutes / 60);
+const minutes = totalMinutes % 60;
+console.log(hours);
+console.log(minutes);
+
+const doubleDigitHours = String(hours).padStart(2, 0);
+const doubleDigitMinutes = String(minutes).padStart(2, 0);
+console.log(`${doubleDigitHours}:${doubleDigitMinutes}`);
