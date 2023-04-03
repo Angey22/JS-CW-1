@@ -26,7 +26,7 @@ let theLiar = false;
 
 // Для вывода в консоли значения переменной, функции или результата операции нужно использовать - "console.log()"
 
-console.groupCollapsed('"const"'); // Название группы
+console.groupCollapsed('"const"'); //! Название группы
 console.log(5); // => 5
 console.log(age); // => 10
 console.log('Абра-Кадабра'); // => Абра-Кадабра
@@ -34,7 +34,7 @@ console.log(userName); // => Chelsy
 console.log(isOpen); // => true
 console.groupEnd(); // Закрываем группу
 
-console.groupCollapsed('"let"'); // Название группы
+console.groupCollapsed('"let"'); //! Название группы
 console.log(x); // => undefined
 console.log(y); // => 17
 console.log(NoTicets); // => Нет билетов!
