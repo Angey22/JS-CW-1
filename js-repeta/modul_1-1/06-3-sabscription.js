@@ -1,3 +1,5 @@
+//! Видео - 2:24:00...2:28:15
+
 /*
 * Напиши скрипт проверки подписки пользователя для предоставления доступа к определенному контенту
 * Условия:
@@ -9,7 +11,7 @@ const sub = 'free';
 
 // Если пользователь "pro" или "vip", тогда есть доступ
 const canAccessContent = sub === 'pro' || sub === 'vip';
-// "free" -> false || false => false
-//  "pro" ->  true || false => true
-//  "vip" -> false ||  true => true
+// sub = "free" -> false || false => false
+//  sub = "pro" ->  true || false => true
+//  sub = "vip" -> false ||  true => true
 console.log(`Есть доступ к контенту? -`, canAccessContent);
