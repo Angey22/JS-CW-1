@@ -1,3 +1,5 @@
+//! Видео - 41:50...57:41
+
 const btnAdd = document.querySelector('button[data-add]');
 const resetBtn = document.querySelector('button[data-reset]');
 const valueInput = document.querySelector('input[data-value]');

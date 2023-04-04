@@ -1,3 +1,5 @@
+//! Видео - 11:35...27:30 & 37:00...41:10
+
 /*
 * Напиши скрипт подсчета суммы покупки со скидкой в зависимости от потраченой суммы за все время (партнерская программа).
 *
@@ -37,7 +39,9 @@ else if (totalSpent >= 100 && totalSpent < 1000) {
 }
 
 // 3-е условие
-payment -= payment * discount; // payment = payment - payment * discount;
+payment -= payment * discount;
+// payment = payment - payment * discount;
+
 console.log(`Оформляем заказ на сумму ${payment} со скидкой ${discount * 100}%`);
 
 // Дополнительные операции
